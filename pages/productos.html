@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compara Ya</title>
+    <link rel="shortcut icon" href="../assets/images/compara_ya_icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="nav-header">
+        <div>
+            <img src="../assets/images/compara_ya_icon.svg" alt="compara_ya">
+            <h1 class="web-name">Compara Ya</h1>
+        </div>
+
+        <div class="nav-buttons">
+            <ul type="none">
+                <li><a href="../index.html">Principal</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="../pages/promociones.html">Promociones</a></li>
+                <li><a href="../pages/ayuda.html">Ayuda</a></li>
+            </ul>
+        </div>
+
+        <div class="login-search">
+            <a href="../pages/Ingresar.html">Ingresar</a>
+            <img src="../assets/images/lupa.svg" alt="buscar">
+        </div>
+
+    </header>
+
+    <hr>
+
+    <main class="products">
+
+        <section class="filters">
+
+            <h2>Filtros</h2>
+
+            <div class="search-filters">
+                <h3>Categorías</h3>
+                <form id="filter-category" class="filter_form">
+                    <div class="filter-item">
+                        <label for="categoria1">
+                            Categoría 1
+                            <input type="checkbox" id="categoria1" name="categoria1" value="categoria1">
+                        </label>
+                    </div>
+                    <div class="filter-item">
+                        <label for="categoria2">
+                            Categoría 2
+                            <input type="checkbox" id="categoria2" name="categoria2" value="categoria2">
+                        </label>
+                    </div>
+                    <div class="filter-item">
+                        <label for="categoria3">
+                            Categoría 3
+                            <input type="checkbox" id="categoria3" name="categoria3" value="categoria3">
+                        </label>
+                    </div>
+                    <div class="filter-item">
+                        <label for="categoria4">
+                            Categoría 4
+                            <input type="checkbox" id="categoria4" name="categoria4" value="categoria4">
+                        </label>
+                    </div>
+                    <div class="filter-item">
+                        <label for="categoria5">
+                            Categoría 5
+                            <input type="checkbox" id="categoria5" name="categoria5" value="categoria5">
+                        </label>
+                    </div>
+                    <div class="filter-item">
+                        <label for="categoria6">
+                            Categoría 6
+                            <input type="checkbox" id="categoria6" name="categoria6" value="categoria6">
+                        </label>
+                    </div>
+                </form>
+            </div>
+
+            <div class="search-filters">
+                <h3>Precio</h3>
+                <form id="filter-price" class="filter_form">
+                    <div class="filter-item">
+                        <label for="minimum">Desde</label>
+                        <input type="number" id="minimum" name="minimum" placeholder="$ mínimo">
+                    </div>
+                    <div class="filter-item">
+                        <label for="maximum">Hasta</label>
+                        <input type="number" id="maximum" name="maximum" placeholder="$ máximo">
+                    </div>             
+                </form>
+            </div>
+
+            <div class="search-filters">
+                <h3>Región</h3>
+                <form id="filter-region" class="filter_form">
+                    <div class="filter-item">
+                        <label for="nacional">
+                            Nacional
+                            <input type="checkbox" id="nacional" name="nacional" value="nacional">
+                        </label>
+                    </div>
+                    <div class="filter-item">
+                        <label for="internacional">
+                            Internacional
+                            <input type="checkbox" id="internacional" name="internacional" value="internacional">
+                        </label>
+                    </div>
+                </form>
+            </div>
+
+            <div class="search-filters">
+                <h3>Descuento</h3>
+                <form id="filter-discount" class="filter_form">
+                    <div class="filter-item">
+                        <label for="10-perc">
+                            Hasta 10%
+                            <input type="checkbox" id="10-perc" name="10-perc" value="10-perc">
+                        </label>
+                    </div>
+                    <div class="filter-item">
+                        <label for="20-perc">
+                            Hasta 20%
+                            <input type="checkbox" id="20-perc" name="20-perc" value="20-perc">
+                        </label>
+                    </div>
+                    <div class="filter-item">
+                        <label for="30-perc">
+                            Hasta 30%
+                            <input type="checkbox" id="30-perc" name="30-perc" value="30-perc">
+                        </label>
+                    </div>
+                    <div class="filter-item">
+                        <label for="50-perc">
+                            Hasta 50%
+                            <input type="checkbox" id="50-perc" name="50-perc" value="50-perc">
+                        </label>
+                    </div>
+                    <div class="filter-item">
+                        <label for="70-perc">
+                            Hasta 70%
+                            <input type="checkbox" id="70-perc" name="70-perc" value="70-perc">
+                        </label>
+                    </div>
+                </form>
+            </div>
+
+            <div class="search-filters">
+                <h3>Banco</h3>
+                <form id="filter-bank" class="filter_form">
+                    <div class="filter-item">
+                        <label for="BBVA">
+                            BBVA
+                            <input type="checkbox" id="BBVA" name="BBVA" value="BBVA">
+                        </label>
+                    </div>
+                    <div class="filter-item">
+                        <label for="Santander">
+                            Santander
+                            <input type="checkbox" id="Santander" name="Santander" value="Santander">
+                        </label>
+                    </div>
+                    <div class="filter-item">
+                        <label for="Galicia">
+                            Galicia
+                            <input type="checkbox" id="Galicia" name="Galicia" value="Galicia">
+                        </label>
+                    </div>
+                    <div class="filter-item">
+                        <label for="Ualá">
+                            Ualá
+                            <input type="checkbox" id="Ualá" name="Ualá" value="Ualá">
+                        </label>
+                    </div>
+                    <div class="filter-item">
+                        <label for="Mercado Pago">
+                            Mercado Pago
+                            <input type="checkbox" id="Mercado Pago" name="Mercado Pago" value="Mercado Pago">
+                        </label>
+                    </div>
+                    <div class="filter-item">
+                        <label for="Modo">
+                            Modo
+                            <input type="checkbox" id="Modo" name="Modo" value="Modo">
+                        </label>
+                    </div>
+                </form>
+            </div>
+
+            <div class="search-filters">
+                <h3>Cuotas</h3>
+                <form id="filter-dues" class="filter_form">
+                    <div class="filter-item">
+                        <label for="En 3 cuotas">
+                            En 3 cuotas
+                            <input type="checkbox" id="En 3 cuotas" name="En 3 cuotas" value="En 3 cuotas">
+                        </label>
+                    </div>
+                    <div class="filter-item">
+                        <label for="En 6 cuotas">
+                            En 6 cuotas
+                            <input type="checkbox" id="En 6 cuotas" name="En 6 cuotas" value="En 6 cuotas">
+                        </label>
+                    </div>
+                    <div class="filter-item">
+                        <label for="En 12 cuotas">
+                            En 12 cuotas
+                            <input type="checkbox" id="En 12 cuotas" name="En 12 cuotas" value="En 12 cuotas">
+                        </label>
+                    </div>
+                    <div class="filter-item">
+                        <label for="En 24 cuotas">
+                            En 24 cuotas
+                            <input type="checkbox" id="En 24 cuotas" name="En 24 cuotas" value="En 24 cuotas">
+                        </label>
+                    </div>
+                </form>
+            </div>
+
+        </section>
+
+        <section class="shop">
+
+            <h2>Productos</h2>
+
+            <ul class="articles" type="none">
+                <li class="article">
+                    <a href="#"><img src="../assets/images/campera-frisa.jpg" alt="Artículo 1"></a>
+                    <a href="#"><h3>Articulo 1</h3></a>
+                    <p class="price">$xx.xxx</p>
+                    <p class="description">x% más barato</p>
+                </li>
+                <li class="article">
+                    <a href="#"><img src="../assets/images/iphone_13.png" alt="Artículo 1"></a>
+                    <a href="#"><h3>Articulo 2</h3></a>
+                    <p class="price">$xx.xxx</p>
+                    <p class="description">x% más barato</p>
+                </li>
+                <li class="article">
+                    <a href="#"><img src="../assets/images/ollas_y_sartenes.jpg" alt="Artículo 1"></a>
+                    <a href="#"><h3>Articulo 3</h3></a>
+                    <p class="price">$xx.xxx</p>
+                    <p class="description">x% más barato</p>
+                </li>
+                <li class="article">
+                    <a href="#"><img src="../assets/images/cesto_supermercado.png" alt="Artículo 1"></a>
+                    <a href="#"><h3>Articulo 4</h3></a>
+                    <p class="price">$xx.xxx</p>
+                    <p class="description">x% más barato</p>
+                </li>
+                <li class="article">
+                    <a href="#"><img src="../assets/images/herramientas-taller.jpg" alt="Artículo 1"></a>
+                    <a href="#"><h3>Articulo 5</h3></a>
+                    <p class="price">$xx.xxx</p>
+                    <p class="description">x% más barato</p>
+                </li>
+                <li class="see-more">
+                    <a href="#"><span>+</span></a>
+                    <a href="#"><h3>Ver más</h3></a>
+                </li>
+            </ul>
+
+            <h3>Más nuevos</h3>
+
+            <ul class="articles" type="none">
+                <li class="article">
+                    <a href="#"><img src="../assets/images/campera-frisa.jpg" alt="Artículo 1"></a>
+                    <a href="#"><h3>Articulo 1</h3></a>
+                    <p class="price">$xx.xxx</p>
+                    <p class="description">x% más barato</p>
+                </li>
+                <li class="article">
+                    <a href="#"><img src="../assets/images/iphone_13.png" alt="Artículo 1"></a>
+                    <a href="#"><h3>Articulo 2</h3></a>
+                    <p class="price">$xx.xxx</p>
+                    <p class="description">x% más barato</p>
+                </li>
+                <li class="article">
+                    <a href="#"><img src="../assets/images/ollas_y_sartenes.jpg" alt="Artículo 1"></a>
+                    <a href="#"><h3>Articulo 3</h3></a>
+                    <p class="price">$xx.xxx</p>
+                    <p class="description">x% más barato</p>
+                </li>
+                <li class="article">
+                    <a href="#"><img src="../assets/images/cesto_supermercado.png" alt="Artículo 1"></a>
+                    <a href="#"><h3>Articulo 4</h3></a>
+                    <p class="price">$xx.xxx</p>
+                    <p class="description">x% más barato</p>
+                </li>
+                <li class="article">
+                    <a href="#"><img src="../assets/images/herramientas-taller.jpg" alt="Artículo 1"></a>
+                    <a href="#"><h3>Articulo 5</h3></a>
+                    <p class="price">$xx.xxx</p>
+                    <p class="description">x% más barato</p>
+                </li>
+                <li class="see-more">
+                    <a href="#"><span>+</span></a>
+                    <a href="#"><h3>Ver más</h3></a>
+                </li>
+            </ul>
+
+            <h3>Tendencias</h3>
+
+            <ul class="articles" type="none">
+                <li class="article">
+                    <a href="#"><img src="../assets/images/campera-frisa.jpg" alt="Artículo 1"></a>
+                    <a href="#"><h3>Articulo 1</h3></a>
+                    <p class="price">$xx.xxx</p>
+                    <p class="description">x% más barato</p>
+                </li>
+                <li class="article">
+                    <a href="#"><img src="../assets/images/iphone_13.png" alt="Artículo 1"></a>
+                    <a href="#"><h3>Articulo 2</h3></a>
+                    <p class="price">$xx.xxx</p>
+                    <p class="description">x% más barato</p>
+                </li>
+                <li class="article">
+                    <a href="#"><img src="../assets/images/ollas_y_sartenes.jpg" alt="Artículo 1"></a>
+                    <a href="#"><h3>Articulo 3</h3></a>
+                    <p class="price">$xx.xxx</p>
+                    <p class="description">x% más barato</p>
+                </li>
+                <li class="article">
+                    <a href="#"><img src="../assets/images/cesto_supermercado.png" alt="Artículo 1"></a>
+                    <a href="#"><h3>Articulo 4</h3></a>
+                    <p class="price">$xx.xxx</p>
+                    <p class="description">x% más barato</p>
+                </li>
+                <li class="article">
+                    <a href="#"><img src="../assets/images/herramientas-taller.jpg" alt="Artículo 1"></a>
+                    <a href="#"><h3>Articulo 5</h3></a>
+                    <p class="price">$xx.xxx</p>
+                    <p class="description">x% más barato</p>
+                </li>
+                <li class="see-more">
+                    <a href="#"><span>+</span></a>
+                    <a href="#"><h3>Ver más</h3></a>
+                </li>
+            </ul>
+
+            <h3>Mayor descuento</h3>
+
+            <ul class="articles" type="none">
+                <li class="article">
+                    <a href="#"><img src="../assets/images/campera-frisa.jpg" alt="Artículo 1"></a>
+                    <a href="#"><h3>Articulo 1</h3></a>
+                    <p class="price">$xx.xxx</p>
+                    <p class="description">x% más barato</p>
+                </li>
+                <li class="article">
+                    <a href="#"><img src="../assets/images/iphone_13.png" alt="Artículo 1"></a>
+                    <a href="#"><h3>Articulo 2</h3></a>
+                    <p class="price">$xx.xxx</p>
+                    <p class="description">x% más barato</p>
+                </li>
+                <li class="article">
+                    <a href="#"><img src="../assets/images/ollas_y_sartenes.jpg" alt="Artículo 1"></a>
+                    <a href="#"><h3>Articulo 3</h3></a>
+                    <p class="price">$xx.xxx</p>
+                    <p class="description">x% más barato</p>
+                </li>
+                <li class="article">
+                    <a href="#"><img src="../assets/images/cesto_supermercado.png" alt="Artículo 1"></a>
+                    <a href="#"><h3>Articulo 4</h3></a>
+                    <p class="price">$xx.xxx</p>
+                    <p class="description">x% más barato</p>
+                </li>
+                <li class="article">
+                    <a href="#"><img src="../assets/images/herramientas-taller.jpg" alt="Artículo 1"></a>
+                    <a href="#"><h3>Articulo 5</h3></a>
+                    <p class="price">$xx.xxx</p>
+                    <p class="description">x% más barato</p>
+                </li>
+                <li class="see-more">
+                    <a href="#"><span>+</span></a>
+                    <a href="#"><h3>Ver más</h3></a>
+                </li>
+            </ul>
+
+            <h3>Grandes marcas</h3>
+
+            <ul class="articles" type="none">
+                <li class="article">
+                    <a href="#"><img src="../assets/images/campera-frisa.jpg" alt="Artículo 1"></a>
+                    <a href="#"><h3>Articulo 1</h3></a>
+                    <p class="price">$xx.xxx</p>
+                    <p class="description">x% más barato</p>
+                </li>
+                <li class="article">
+                    <a href="#"><img src="../assets/images/iphone_13.png" alt="Artículo 1"></a>
+                    <a href="#"><h3>Articulo 2</h3></a>
+                    <p class="price">$xx.xxx</p>
+                    <p class="description">x% más barato</p>
+                </li>
+                <li class="article">
+                    <a href="#"><img src="../assets/images/ollas_y_sartenes.jpg" alt="Artículo 1"></a>
+                    <a href="#"><h3>Articulo 3</h3></a>
+                    <p class="price">$xx.xxx</p>
+                    <p class="description">x% más barato</p>
+                </li>
+                <li class="article">
+                    <a href="#"><img src="../assets/images/cesto_supermercado.png" alt="Artículo 1"></a>
+                    <a href="#"><h3>Articulo 4</h3></a>
+                    <p class="price">$xx.xxx</p>
+                    <p class="description">x% más barato</p>
+                </li>
+                <li class="article">
+                    <a href="#"><img src="../assets/images/herramientas-taller.jpg" alt="Artículo 1"></a>
+                    <a href="#"><h3>Articulo 5</h3></a>
+                    <p class="price">$xx.xxx</p>
+                    <p class="description">x% más barato</p>
+                </li>
+                <li class="see-more">
+                    <a href="#"><span>+</span></a>
+                    <a href="#"><h3>Ver más</h3></a>
+                </li>
+            </ul>
+
+        </section>
+        
+        <hr>
+
+        <footer>
+
+            <nav class="social">
+                <p class="social-text">Síguenos en nuestras redes</p>
+                <ul class="social-list" type="none"> <!--despues cambiar el type en css-->
+                    <li><a href="#"><img src="../assets/images/facebook.svg" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="../assets/images/x_twitter.png" alt="X twitter"></a></li>
+                    <li><a href="#"><img src="../assets/images/instagram.svg" alt="Instagram"></a></li>
+                </ul>
+            </nav>
+
+            <form class="newsletter-form">
+                <label for="email">No te pierdas las novedades</label>
+                <input type="email" id="email" name="email" placeholder="correo electrónico" required>
+                <button type="submit">Suscribirse</button>
+            </form>
+
+            <div>
+                <p>Av. Corrientes 1000, CABA, Argentina</p>
+                <p>© 2024 Compara Ya. Todos los derechos reservados.</p>
+            </div>
+
+        </footer>
+    </main>
+</body>
+</html>

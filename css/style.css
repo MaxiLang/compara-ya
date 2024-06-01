@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Source Sans';
+    src: url('../assets/fonts/SourceSans3-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-family: "Public Sans",sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-buttons ul {
+    display: flex;
+    padding: 0;
+}
+
+.nav-buttons li {
+    margin-right: 20px;
+}
+
+.login-search {
+    display: flex;
+    align-items: center;
+}
+
+.home {
+    padding: 20px;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+}
+
+.carousel a {
+    margin-right: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.grid-item img {
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.social-list li {
+    margin-right: 10px;
+}
+
+.social-list img[src="./assets/images/x_twitter.png"] {
+    width: 24px;
+    height: 24px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.clarification {
+    font-size: 0.8em;
+    color: #777;
+}
