@@ -266,11 +266,7 @@ hr {
     background: linear-gradient( white, #eeeeee);
 }
 
-.social-listening h3 {
-    margin-bottom: 10px;
-}
-
-.social-listening p {
+.social-listening .description {
     margin-bottom: 20px;
     text-align: center;
 }
@@ -368,6 +364,11 @@ footer {
 .social-list li a img {
     width: 50%;
     height: 50%;
+    
+}
+
+.facebook {
+    margin-left: 5px;
     
 }
 
