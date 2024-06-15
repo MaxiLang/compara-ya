@@ -305,7 +305,7 @@ hr {
 .social-card {
     background-color: white;
     border-radius: 10px;
-    border-color: ga;
+    border-color: grey;
     border-style: outset;
     border-width: 2px;
     display: flex;
