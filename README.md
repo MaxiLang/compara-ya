@@ -1,1 +1,3 @@
-esto es un readme
+- Linkeo Bootstrap a: index
+- Reestructuración de CSS con responsive
+- Ajustes de HTML: index
