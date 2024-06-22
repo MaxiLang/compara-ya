@@ -1,0 +1,33 @@
+/* Carousel */
+.d-block { /* clase de bootstrap */
+  display: inline !important;
+  border-radius: 90px;
+  padding: 50px 50px;
+  max-width: 800px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: 10%;
+}
+
+
+
+/* revisar componente bootstrap para mejorar esta parte, está mal */
+/*.carousel-desctiption {
+  font-weight: normal;
+  background-color: #eeeeee;
+  border-radius: 100px;
+  width: 513px;
+  height: 90px;
+  margin: 10px 0px 455px 300px;
+}
+
+.carousel-desctiption h5 {
+  font-weight: bold;
+  color: #555555;
+}
+
+.carousel-desctiption p:nth-child(2) {
+  font-weight: bold;
+  color: green;
+}*/

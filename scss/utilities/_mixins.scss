@@ -1,0 +1,34 @@
+/* Mixins */
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-column($gap: 0) {
+  display: flex;
+  flex-direction: column;
+  gap: $gap;
+}
+
+@mixin transition($properties...) {
+  $transition-properties: ();
+  @each $property in $properties {
+    $transition-properties: append($transition-properties, #{$property} #{$transition-duration}, comma);
+  }
+  transition: $transition-properties;
+}
+
+@mixin box-shadow($shadow) {
+  box-shadow: $shadow;
+}
+
+@mixin text-center {
+  text-align: center;
+}
+
+@mixin font-style($size, $weight: normal, $color: $font-color-base) {
+  font-size: $size;
+  font-weight: $weight;
+  color: $color;
+}

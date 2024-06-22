@@ -1,0 +1,57 @@
+.social-listening {
+  padding: 20px;
+  background: linear-gradient( white, #eeeeee);
+}
+
+.social-listening .description {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.user-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.username-text {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.username-rrss {
+  color: #6c757d;
+}
+
+.content {
+  margin-bottom: 10px;
+}
+
+.timestamp {
+  color: #6c757d;
+  font-size: 12px;
+}
+
+.social-card {
+  background-color: white;
+  border-radius: 10px;
+  border-color: grey;
+  border-style: outset;
+  border-width: 2px;
+  display: flex;
+}
+
+.social-info {
+  margin: 20px;
+}
+
+.social-listening .carousel-indicators {
+  bottom: -50px;
+}

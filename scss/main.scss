@@ -1,0 +1,15 @@
+/* Importar todos los archivos parciales */
+
+@import 'utilities/variables';
+@import 'utilities/functions';
+@import 'utilities/mixins';
+@import 'base/reset';
+@import 'base/typo';
+@import 'components/carousel';
+@import 'layout/header';
+@import 'layout/grid';
+@import 'layout/login';
+@import 'layout/social-listening';
+@import 'layout/footer';
+@import 'layout/main';
+@import 'themes/media-queries';

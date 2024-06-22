@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "description": "proyecto desarrollo web para coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxiLang/compara-ya.git"
+  },
+  "author": "Maximiliano Langellotti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxiLang/compara-ya/issues"
+  },
+  "homepage": "https://github.com/MaxiLang/compara-ya#readme"
+}

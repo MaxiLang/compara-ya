@@ -1,0 +1,84 @@
+footer {
+  background: #eeeeee;
+  padding: 20px;
+}
+
+.social {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.social-text {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-list li {
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-list li a {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  background: gainsboro;
+  border-radius: 50%;
+}
+
+.social-list li a img {
+  width: 50%;
+  height: 50%;
+  
+}
+
+.facebook {
+  margin-left: 5px;
+  
+}
+
+.newsletter-form {
+  display: flex;
+  align-items: center;
+}
+
+.newsletter-form label {
+  font-size: 14px;
+  margin-right: 10px;
+  color: #555;
+}
+
+.newsletter-form input[type="email"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.newsletter-form button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.newsletter-form button:hover {
+  background-color: #555; /* Adjust based on the hover color */
+}
+
+.footer-info {
+  text-align: center;
+}

@@ -1,0 +1,11 @@
+/* Fuente para la web */
+@font-face {
+  font-family: 'Source Sans';
+  src: url('../assets/fonts/SourceSans3-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-family: "Public Sans", sans-serif;
+}

@@ -1,0 +1,11 @@
+/* Functions */
+@use "sass:math";
+
+@function rem($px) {
+    @return #{math.div($px, 16)}rem;
+  }
+  
+  @function color-mod($color, $amount) {
+    @return lighten($color, $amount);
+  }
+  
