@@ -4,7 +4,20 @@
   grid-template-rows: repeat(3, auto); /* Tres filas automáticas */
   grid-gap: 20px;
   justify-content: center;
+  align-items: center
+}
+
+.shop .grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto); /* Tres filas automáticas */
+  grid-gap: 20px;
+  justify-content: center;
   align-items: center;
+  :hover {
+    color: $primary-color;
+    transition: 0.3s ease;
+  }
 }
 
 .grid-item {
